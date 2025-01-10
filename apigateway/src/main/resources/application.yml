@@ -1,0 +1,15 @@
+spring:
+  cloud:
+    gateway:
+      routes:
+        - id: product-service
+          uri: lb://PRODUCT-SERVICE
+          predicates:
+            - Path=/product/**
+          filters:
+            - JwtAuthenticationFilter
+
+        - id: security-service
+          uri: lb://SECURITY-SERVICE
+          predicates:
+            - Path=/auth/**
