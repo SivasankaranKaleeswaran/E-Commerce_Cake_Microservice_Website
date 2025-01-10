@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="d6a5726a-0810-431f-8a4b-391fa6288904" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 7
+}</component>
+  <component name="ProjectId" id="2qgAfuGQ7xxkfddgnTmZFxG71hA" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.ApigatewayApplication.executor": "Run",
+    "Application.AuthenticationAuthorizationApplication.executor": "Run",
+    "Application.DiscoveryApplication.executor": "Run",
+    "Application.NotificationApplication.executor": "Run",
+    "Application.ProductApplication.executor": "Run",
+    "Application.SecurityApplication.executor": "Run",
+    "Application.UserApplication.executor": "Run",
+    "Docker.docker-compose.yaml: Compose Deployment.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/E-Commerce_Cake_Microservice_Website/user/src/main/resources",
+    "settings.editor.selected.configurable": "preferences.lookFeel"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.ecom.microservice.Security.config" />
+      <recent name="com.ecom.microservice.Security" />
+      <recent name="com.ecom.microservice.AuthenticationAuthorization.config" />
+      <recent name="com.ecom.microservice.AuthenticationAuthorization.entity" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\E-Commerce_Cake_Microservice_Website\user\src\main\resources" />
+      <recent name="C:\E-Commerce_Cake_Microservice_Website\serviceDiscovery\src\main\resources" />
+      <recent name="C:\E-Commerce_Cake_Microservice_Website\Security\src\main\resources" />
+      <recent name="C:\E-Commerce_Cake_Microservice_Website\product\src\main\resources" />
+      <recent name="C:\E-Commerce_Cake_Microservice_Website\category\src\main\resources" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\E-Commerce_Cake_Microservice_Website\category\src\main\resources" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.NotificationApplication">
+    <configuration name="ApigatewayApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ecom.microservice.apigateway.ApigatewayApplication" />
+      <module name="apigateway" />
+      <option name="PROGRAM_PARAMETERS" value="--server.port=8765" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ecom.microservice.apigateway.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DiscoveryApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ecom.microservice.discovery.DiscoveryApplication" />
+      <module name="serviceDiscovery" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ecom.microservice.discovery.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NotificationApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ecom.microservice.Notification.NotificationApplication" />
+      <module name="Notification" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ecom.microservice.Notification.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProductApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ecom.microservice.product.ProductApplication" />
+      <module name="product" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ecom.microservice.product.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="docker-deploy" factoryName="docker-compose.yml" temporary="true">
+      <deployment type="docker-compose.yml">
+        <settings />
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <configuration name="docker-compose.yaml: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
+      <deployment type="docker-compose.yml">
+        <settings>
+          <option name="sourceFilePath" value="docker-compose.yaml" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.NotificationApplication" />
+        <item itemvalue="Docker.docker-compose.yaml: Compose Deployment" />
+        <item itemvalue="Application.ApigatewayApplication" />
+        <item itemvalue="Application.DiscoveryApplication" />
+        <item itemvalue="Application.ProductApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d6a5726a-0810-431f-8a4b-391fa6288904" name="Changes" comment="" />
+      <created>1735073953565</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1735073953565</updated>
+    </task>
+    <servers />
+  </component>
+</project>
