@@ -35,6 +35,7 @@ public class JwtAuthenticationFilter extends AbstractGatewayFilterFactory<JwtAut
                 try {
 //                    //REST call to AUTH service
 //                    template.getForObject("http://IDENTITY-SERVICE//validate?token" + authHeader, String.class);
+                    // included the jwt validation here to enhance the function by restriting a network call.
                     jwtutil.isTokenValid(authHeader);
 
                 } catch (Exception e) {
