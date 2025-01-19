@@ -60,6 +60,22 @@ services:
     environment:
       - SPRING_PROFILES_ACTIVE=docker
       - EUREKA_CLIENT_SERVICEURL_DEFAULTZONE=http://discovery-service:8761/eureka/
+      
+  notification-service:
+    image: sivasankaran476/notification:latest
+    container_name: notification-service
+    ports:
+      - "9090:9090"
+    depends_on:
+      - zipkin
+      - discovery-service
+      - api-gateway
+      - security-service
+    networks:
+      - ecom-network
+    environment:
+      - SPRING_PROFILES_ACTIVE=docker
+      - EUREKA_CLIENT_SERVICEURL_DEFAULTZONE=http://discovery-service:8761/eureka/
 
   zipkin:
     image: openzipkin/zipkin:latest
